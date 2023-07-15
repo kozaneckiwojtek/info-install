@@ -29,7 +29,7 @@ const Baner = () => {
               <img src={baner} alt="Background" />
               <div className="content">
                 <p>Rozwiązania elektryczne na miarę Twoich potrzeb</p>
-                <a href="#" id="open-button" className="cta-button">Skontaktuj się z nami</a>
+                <a href="#odnosnik_kontakt" id="open-button" className="cta-button">Skontaktuj się z nami</a>
               </div>
             </div>
           </Col>

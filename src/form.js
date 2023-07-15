@@ -12,7 +12,7 @@ const Form = () => {
             <h2>Kontakt</h2>
   
               <form id="form" name="kontakt" action="/kontakt" method="post" acceptCharset="UTF-8">
-                  <input type="hidden" name="form-name" value="contact" />
+                  <input type="hidden" name="form-name" value="kontakt" />
                   
                   <input type="text" placeholder="Imię i nazwisko" name="imie_i_nazwisko" required/>
                   <input type="email" placeholder="Adres e-mail" name="email" required/>

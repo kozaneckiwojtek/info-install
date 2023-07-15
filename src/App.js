@@ -1,9 +1,10 @@
-import './App.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/App.css';
+import Form from './form';
 function App() {
   return (
     <>
-    <p>test</p>
+    <Form/>
     </>
   );
 }

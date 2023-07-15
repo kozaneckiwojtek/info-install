@@ -1,0 +1,52 @@
+/* Contact Section */
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 120px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+/* Dane kontatkowe */
+#contactdata{
+    margin-top: 6%;
+    width: 30%;
+    float: left;
+}
+
+#contactdata p{
+    margin: 15px;
+}
+
+#contactdata p img{
+    width: 5%;
+}
+table{
+    border: 20px;
+    border: solid;
+}
+#map{
+    border: 20px;
+    border: dotted;
+    border-color: #333;
+    width: 400px;
+}
+.form{
+    padding-top: 50px;
+}

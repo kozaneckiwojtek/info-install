@@ -11,7 +11,7 @@ const Baner = () => {
       <Container fluid className='baner'>
         <Row>
           <Col className='logo col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4'>
-            <a id="logotop" href="#top"><img src={baner} alt="logo" /></a>
+            <a id="logotop" href=""><img src={baner} alt="logo" /></a>
           </Col>
           <Col className='navi col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8'>
             <ul className="baner_list">

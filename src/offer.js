@@ -35,8 +35,10 @@ const Offer = () => {
             <p><img src={location} alt="location" />Adres: ul. Walecznych 19, 09-409 Płock</p>
             <p><img src={phone} alt="phone" />Kom.: +48 791 813 991</p>
             <p id="lastP"><img src={email} alt="email" />E-mail: nawrocki10@wp.pl</p>
-
-            <MapComponent id="mapa" mapLoaded={mapLoaded} setMapLoaded={setMapLoaded} />
+            <div id="mapa">
+            <MapComponent mapLoaded={mapLoaded} setMapLoaded={setMapLoaded} />
+            </div>
+            
           </Col>
         </Row>
       </Container>

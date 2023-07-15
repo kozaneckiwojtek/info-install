@@ -48,13 +48,14 @@ h2{
 
 @media (max-width: 400px) {
     #map-9cd199b9cc5410cd3b1ad21cab2e54d3{
-        width: 300px;
+        width: 250px;
         height: 500px;
         margin: 0px;
         padding: 0px;
+        
     }
     #map{
-        width: 306px !important; 
+        width: 256px !important; 
         margin: 0px;
         padding: 0px;
     }
@@ -62,4 +63,12 @@ h2{
         white-space: nowrap;
         font-size: 4.5vw;
     }
+    #mapa {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+      }
+    
 }

@@ -4,6 +4,7 @@ import Baner from './baner';
 import Offer from './offer'
 import Onas from './onas'
 import Form from './form';
+import Footer from './footer';
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
     <Offer />
     <Onas />
     <Form/>
+    <Footer/>
     </>
   );
 }

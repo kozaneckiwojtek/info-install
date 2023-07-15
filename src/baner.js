@@ -15,10 +15,10 @@ const Baner = () => {
           </Col>
           <Col className='navi col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8'>
             <ul className="baner_list">
-              <li className="baner_elemen"><a href="#pointer-offer">Nasza Oferta</a></li>
+              <li className="baner_elemen"><a href="#naglowek">Nasza Oferta</a></li>
               <li className="baner_elemen"><a href="#pointer-portfolio">Nasze realizacje</a></li>
-              <li className="baner_elemen"><a href="#pointer-aboutUs">O nas</a></li>
-              <li className="baner_elemen"><a href="#contact">Kontakt</a></li>
+              <li className="baner_elemen"><a href="#odnosnik_onas">O nas</a></li>
+              <li className="baner_elemen"><a href="#odnosnik_kontakt">Kontakt</a></li>
             </ul>
           </Col>
         </Row>

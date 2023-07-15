@@ -45,7 +45,9 @@ table{
     border: 20px;
     border: dotted;
     border-color: #333;
-    width: 400px;
+    width: 350px;
+    
+
 }
 .form{
     padding-top: 50px;

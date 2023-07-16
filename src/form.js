@@ -9,7 +9,7 @@ const Form = () => {
         <Container className='form'>
           <Row>
             <Col className='col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12'>
-            <h2 id='odnosnik_kontakt'>Kontakt</h2>
+            <h2 id='Kontakt'>Kontakt</h2>
   
               <form id="form" name="kontakt" action="/kontakt" method="post" acceptCharset="UTF-8">
                   <input type="hidden" name="form-name" value="kontakt" />

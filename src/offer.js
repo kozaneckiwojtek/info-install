@@ -16,7 +16,7 @@ const Offer = () => {
     <>
       
       <Container id='offer_kontakt'>
-      <h1 id='naglowek'>Nasza Oferta</h1>
+      <h1 id='Nasza_oferta'>Nasza Oferta</h1>
         <Row>
           <Col className='offer col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8'>
             <h2>Montaż i pomiary instalacji elektrycznych i sieciowych</h2>
@@ -32,7 +32,7 @@ const Offer = () => {
           <Col className='kontakt col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4'>
             <h2>Dane kontaktowe</h2>
             <p><img src={rightarrow} alt="arrow" />P.H.U. Info-Install Paweł Nawrocki</p>
-            <p><img src={location} alt="location" />Adres: ul. Walecznych 19, 09-409 Płock</p>
+            <p><img src={location} alt="location" />Adres: ul. Walecznych 19,<br/>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 09-409 Płock</p>
             <p><img src={phone} alt="phone" />Kom.: +48 791 813 991</p>
             <p id="lastP"><img src={email} alt="email" />E-mail: nawrocki10@wp.pl</p>
             <div id="mapa">

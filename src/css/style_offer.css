@@ -33,7 +33,7 @@ h2{
     
 }
 
-#naglowek{
+#Nasza_oferta{
     margin-top: 20px;
 }
 
@@ -60,7 +60,7 @@ h2{
         padding: 0px;
     }
     .kontakt p{
-        white-space: nowrap;
+        white-space: nowrap; 
         font-size: 4.5vw;
     }
     #mapa {
@@ -70,5 +70,7 @@ h2{
         align-items: center;
         
       }
+
+      
     
 }

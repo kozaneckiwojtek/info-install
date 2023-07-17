@@ -8,34 +8,27 @@
 }
 .navi{
     background-color: #333;
-    padding: 20px;
+    padding: 15px;
 }
 .logo {
     display: flex;
     justify-content: flex-end;
     background-color: #333;
   }
-.baner_list {
-    list-style: none;
-    display: flex;
-    text-align: center;
-    padding-top: 10px;
-    padding-right: 40px;
-  
-  }
+
   .baner_elemen{
     display: inline-block;
     margin: 0 10px;
   }
   
-  .baner_elemen a:hover {
+  .baner_elemen:hover {
     background: #fff;
     cursor: pointer;
     color: #333;
   }
   
   
-  .baner_elemen a {
+  .baner_elemen {
     font-size: 25px;
     padding-left: 40px;
     font-family: sans-serif;
@@ -135,4 +128,23 @@
   background: #fff;
   cursor: pointer;
   color: #333;
+}
+
+
+
+
+.custom-hamburger{
+  filter: brightness(0) invert(1);
+}
+
+
+@media (max-width: 1000px) {
+  .baner_elemen{
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .custom-hamburger{
+    margin: 10px;
+  }
 }

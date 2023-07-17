@@ -1,11 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import './css/style_baner.css'
-import baner from './img/Info-Install-logos_white.png'
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import './css/style_baner.css';
+import baner from './img/Info-Install-logos_white.png';
 
 const Baner = () => {
+  const [expanded, setExpanded] = useState(false);
+
+  const handleNavToggle = () => {
+    setExpanded(!expanded);
+  };
+
   return (
     <>
       <Container fluid className='baner'>
@@ -14,12 +22,17 @@ const Baner = () => {
             <a id="logotop" href=""><img src={baner} alt="logo" /></a>
           </Col>
           <Col className='navi col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8'>
-            <ul className="baner_list">
-              <li className="baner_elemen"><a href="#Nasza_oferta">Nasza Oferta</a></li>
-              <li className="baner_elemen"><a href="#Nasze_realizacje">Nasze realizacje</a></li>
-              <li className="baner_elemen"><a href="#O_nas">O nas</a></li>
-              <li className="baner_elemen"><a href="#Kontakt">Kontakt</a></li>
-            </ul>
+            <Navbar expand="lg" expanded={expanded} onToggle={handleNavToggle}>
+              <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-hamburger" />
+              <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="mr-auto">
+                  <Nav.Link className='baner_elemen' href="#Nasza_oferta">Nasza Oferta</Nav.Link>
+                  <Nav.Link className='baner_elemen' href="#Nasze_realizacje">Nasze realizacje</Nav.Link>
+                  <Nav.Link className='baner_elemen' href="#O_nas">O nas</Nav.Link>
+                  <Nav.Link className='baner_elemen' href="#Kontakt">Kontakt</Nav.Link>
+                </Nav>
+              </Navbar.Collapse>
+            </Navbar>
           </Col>
         </Row>
 
@@ -35,9 +48,6 @@ const Baner = () => {
           </Col>
         </Row>
       </Container>
-
-
-      
     </>
   );
 }
